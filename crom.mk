@@ -11,6 +11,8 @@ $(call inherit-product, vendor/crom/config/common_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9305/full_i9305.mk)
 
+$(call inherit-product, vendor/crom/config/nfc_enhanced.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9305
 PRODUCT_NAME := crom_i9305
