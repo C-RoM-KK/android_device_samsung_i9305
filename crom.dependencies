@@ -13,6 +13,12 @@
   },
   {
     "remote": "cm",
+    "repository": "android_device_samsung_smdk4412-qcom-common",
+    "target_path": "device/samsung/smdk4412-qcom-common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "cm",
     "repository": "android_packages_apps_SamsungServiceMode",
     "target_path": "packages/apps/SamsungServiceMode",
     "revision": "cm-11.0"
